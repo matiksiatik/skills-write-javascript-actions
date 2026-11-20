@@ -4,7 +4,9 @@
   "description": "Dad Jokes GitHub Action (GitHub Skills exercise)",
   "type": "module",
   "main": "src/main.js",
-  "scripts": {},
+  "scripts": {
+    "build": "ncc build src/main.js -o dist"
+  },
   "dependencies": {
     "@actions/core": "^1.11.1",
     "@vercel/ncc": "^0.38.3",
